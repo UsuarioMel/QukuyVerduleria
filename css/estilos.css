@@ -55,7 +55,7 @@ img.redimension{
 
 
 
-div.imagen {
+/* div.imagen {
     width: 50%;
     margin: 20px auto;
     background-color: rgb(115, 218, 20);
@@ -77,7 +77,7 @@ div.imagen img.derecha {
 div.reset {
     clear: both;
 } 
-
+ */
 
 .galeria{
   display: grid;
@@ -132,52 +132,18 @@ div.reset {
   margin-left: 100px;
 
 }
+ 
 
 
-
-footer {
+ footer {
   background-color: rgb(115, 218, 20) ;
   color: #edf2f4;
   text-align: center;
   padding: 0.1px;
-}
-
-
-.contenedor {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.1fr 0.2fr 0.1fr 0.1fr 0fr;
-  grid-template-areas:
-  "logo menu menu"
-  "presentacion presentacion presentacion"
-  "productos productos productos"
-  "footer footer footer"; 
 } 
 
-.logo{
-grid-area: logo;
-}
 
-.nosotros{
-  grid-area: nosotros;
-}
 
-.header{
-grid-area: menu;
-}
-
-.presentacion{
-grid-area: presentacion;
-
-}
-
-.productos{
-grid-area: productos;
-}
-
-.footer{
-grid-area: footer;
-}
 
 
 .grid{
