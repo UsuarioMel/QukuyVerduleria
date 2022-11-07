@@ -4,7 +4,8 @@ img.redimension{
     height: 100px;
  }
 
-nav ul {
+nav {
+    ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -16,15 +17,13 @@ nav ul {
         text-decoration: none;
         padding: .5rem 2rem;
         font-size: 1rem;
-     
-      @media screen and (min-width: 480px) {
-
+        @media screen and (min-width: 480px) {
           display: flex;
           justify-content: space-around;
         }
     }
   } 
-  
+}
   
 div {
     .imagen {
@@ -44,25 +43,23 @@ div {
     }
 } 
  
-.present img{
-    width: 200px;
-    height: 200px;
-    
-}
-.present p {
-    margin-left: 100px; 
-}
+
 .present {
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    p {
+        margin-left: 100px; 
+    }
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 50px;
     background-color: rgb(115, 218, 20) ;
     :hover{
-        height: 220px;
-        width: 220px;
-        transform: translateX(10px);
-        transform: rotate(50deg);
+        transform: translateX(5px);
+        transform: rotate(20deg);
             
     }
 } 

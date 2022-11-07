@@ -32,21 +32,17 @@ div .imagen {
     float: right;
     margin-left: 15px; }
 
-.present img {
-  width: 200px;
-  height: 200px; }
-
-.present p {
-  margin-left: 100px; }
-
 .present {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 50px;
   background-color: #73da14; }
+  .present img {
+    width: 200px;
+    height: 200px; }
+  .present p {
+    margin-left: 100px; }
   .present :hover {
-    height: 220px;
-    width: 220px;
-    transform: translateX(10px);
-    transform: rotate(50deg); }
+    transform: translateX(5px);
+    transform: rotate(20deg); }
