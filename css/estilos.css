@@ -40,13 +40,6 @@ nav li a:hover{
   }
 }
 
-@media screen and (max-width: 480px) {
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-
 
 img.redimension{
    width: 100px;
